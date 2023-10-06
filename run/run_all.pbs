@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -N run_lensing
+#PBS -l select=1:ncpus=10:mpiprocs=10:mem=30gb
+#PBS -l walltime=2:00:00
+#PBS -j oe
+#PBS -m ae
+
+cd
+. py310env/bin/activate
+cd /srv/scratch/z5030796/QingLong/run
+mpirun -np 10 python Shells_run.py
+python plot_grid.py
+python lensing_run.py
+python lensing_reverse_run.py
