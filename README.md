@@ -7,7 +7,7 @@
 * Measure non-Gaussianity parameters (Skewness & Kurtosis) of lensing maps either locally or globally.
 
 ## Example 
-* A quarter cross-section view (to scale) of the lens shell arrangement and stacking of hierarchical N-body simulation boxes used to simulate full-sky CMB lensing. The shells are distinguished by different colors, and the grid represents the scaled N-body box.
+* A quarter cross-section view (to scale) of one of the example lens shell arrangements for CMB lensing simulation. The shells are distinguished by different colors, and the grid represents the scaled N-body box
   
   <img src="https://github.com/user-attachments/assets/67d305e7-ece6-4244-b6fb-4dd2b4528633" alt="nbody_arrange_redshift" width="300">
 
