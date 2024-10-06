@@ -6,6 +6,15 @@
 * Efficient Nboy box arrangement for lens shells in differnt redshift.
 * Measure non-Gaussianity parameters (Skewness & Kurtosis) of lensing maps either locally or globally.
 
+## Installation
+
+To install FLAReS, navigate to the directory where you downloaded the package and install it using `pip`:
+
+```python
+cd FLAReS
+pip install .
+```
+
 ## Example 
 * A quarter cross-section view (to scale) of one of the example lens shell arrangements for CMB lensing simulation. The shells are distinguished by different colors, and the grid represents the scaled N-body box
   
