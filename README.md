@@ -98,6 +98,18 @@ python lensing_post-Born_run.py -p parameter.ini
 python lensing_post-Born_run.py -p parameter.ini
 ```
 
-
+## Citing
+If you use FLAReS in your research, please cite it as follows:
+```
+@article{Hamann:2024ywo,
+    author = "Hamann, Jan and Kang, Yuqi",
+    title = "{Non-Gaussianity in CMB lensing from full-sky simulations}",
+    eprint = "2411.02774",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    month = "11",
+    year = "2024"
+}
+```
 ## Developer
 Yuqi Kang
